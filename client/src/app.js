@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const os = require('os');
 const IndexRoutes = require('./routers/index.js');
 
-const ipAddress = '192.168.2.38'; 
+const ipAddress = '192.168.2.38'; //aqui colocamos nuestra ip con la que entraremos en la pagina
 
 app.use(log('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));

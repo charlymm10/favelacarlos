@@ -114,7 +114,7 @@ router.post('/send', async (req, res) => {
       return res.status(400).json({ error: 'Nombre y mensaje son obligatorios' });
     }
 
-    // Crea una nueva instancia de hatModel
+    // Crea una nueva instancia de chatModel
     const nuevoMensaje = new chatModel({
       nombre,
       mensaje,

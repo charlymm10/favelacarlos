@@ -27,8 +27,8 @@ const cuentaSchema = new Schema({
     versionKey: false 
 });
 
-// Exporta ambos modelos
-module.exports = {
+
+  module.exports = {
     chatModel: mongoose.model('chat', chatSchema),
     cuentaModel: mongoose.model('cuentas', cuentaSchema),
 };
